@@ -137,5 +137,9 @@ const autos = [
 // reduce
 
 // some
-
+// Evaluate a condition, and only return true or false
+let result;
+result = autos.some(auto => auto.marca === 'BMW') // true, BMW exists
+result = autos.some(auto => auto.marca === 'Ferrari') // false, Ferrari doesn't exists
+console.log(result)
 

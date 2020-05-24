@@ -128,7 +128,10 @@ const autos = [
 
 // forEach
 
-// map
+// map // .map return a new array, it's the main difference with forEach.
+// const newArray = autos.map(car => car.id) // If we had ID, our element has no ID, only an example
+const newArray = autos.map(car => car)
+console.log(newArray)
 
 // filter
 

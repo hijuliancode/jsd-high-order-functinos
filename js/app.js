@@ -133,6 +133,9 @@ const autos = [
 // filter
 
 // find
+// returns the first element found that match with the condition
+let result = autos.find(auto => auto.marca === 'BMW')
+console.log(result)
 
 // reduce
 

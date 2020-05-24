@@ -131,6 +131,18 @@ const autos = [
 // map
 
 // filter
+// let result = autos.filter(auto => auto.marca === 'BMW')
+// let result = autos.filter(auto => auto.marca !== 'BMW')
+// let result = autos.filter(auto => auto.color === 'Rojo')
+// let result = autos.filter(auto => auto.year === 2018)
+// let result = autos.filter(auto => auto.year > 2015)
+// let result = autos.filter(auto => auto.precio > 50000)
+// let result = autos.filter(auto => auto.puertas === 2)
+// let result = autos.filter(auto => auto.transmision === 'manual')
+// let result = autos.filter(auto => auto.year >= 2015 && auto.year <= 2017)
+let result = autos.filter(auto => auto.year >= 2016 && auto.marca === 'BMW')
+
+console.log(result)
 
 // find
 

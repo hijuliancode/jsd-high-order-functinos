@@ -127,7 +127,6 @@ const autos = [
 // console.table(autos)
 
 // forEach
-autos.forEach(auto => console.log(auto))
 
 // map
 

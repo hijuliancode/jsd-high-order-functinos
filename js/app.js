@@ -135,6 +135,9 @@ const autos = [
 // find
 
 // reduce
+// It takes all the values and returns a unique value
+let result = autos.reduce((total, auto) => total + auto.precio, 0); // Total is the previous value // zero is the initial value of total
+console.log(result)
 
 // some
 
